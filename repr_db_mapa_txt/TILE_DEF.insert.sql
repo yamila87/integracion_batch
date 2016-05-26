@@ -1,0 +1,1 @@
+INSERT INTO tile_def (id, nombre, ancho, largo) VALUES ($id, $nombre, $ancho, $largo)

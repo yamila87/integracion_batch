@@ -1,0 +1,7 @@
+#INFO: representacion en la base que usamos para mostrar mapas
+
+OJO! casi todo se genera usando librepr.js a partir de SCHEMA.def.tsv
+
+XXX: hace falta leer fechas con # to_date($col7,'YYYY-MM-DD HH24:MI:SS')?
+
+XXX: VER en "repr_db_certa_txt_historic" hay versiones de los mismos scripts PERO que usan los datos de version para las tablas de configuracion que NO tienen logId en certa generados por los triggers que se definen en "version_cfg_tables_ddl", cuales funcionan??? como se conectan con los planes que estan definidos en integracion_batch ???

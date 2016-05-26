@@ -1,0 +1,20 @@
+CREATE TABLE CfgEntityType
+(
+  ID          NUMBER,
+  DSC  	      VARCHAR2(100 BYTE),
+  DSCL        VARCHAR2(100 BYTE),
+  CLASS       VARCHAR2(10 BYTE),
+  NETTYPEID   NUMBER,
+  CATEGORYID  NUMBER,
+  PROPERTYID  NUMBER,
+  LAYER       VARCHAR2(100 BYTE),
+  FLAGS       NUMBER
+);
+
+CREATE UNIQUE INDEX ix_CfgEntityType_PK ON CfgEntityType
+(ID);
+
+ALTER TABLE CfgEntityType ADD (
+  CONSTRAINT ix_CfgEntityType_PK  PRIMARY KEY  (ID)
+  );
+

@@ -1,0 +1,2 @@
+DELETE FROM GeoArea 
+WHERE Id= $Id

@@ -1,0 +1,14 @@
+{
+  "driver": "oracle.jdbc.driver.OracleDriver",
+  "motor": "oracle",
+  "host": "10.70.254.197",
+  "port": "1521",
+  "service": "dbnav11g",
+  "user": "NAVCABLE_DESA",
+  "password": "NAVCABLE_DESA",
+  "packageName": "MODEL_API_2",
+  "gzPath": "..//var//data//certa_deltas_historic",
+  "tmpPath": "tmp",
+  "cntPath": "..//var//run",
+  "syncDeltaMax": 5000
+}

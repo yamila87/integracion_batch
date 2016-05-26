@@ -1,0 +1,1 @@
+INSERT INTO GeoStreet (Id, Dsc, streetTypeId, geoAreaId)  VALUES ($GeoStreetId, $Dsc, $streetTypeId, $geoAreaId) 

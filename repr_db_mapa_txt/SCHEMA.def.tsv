@@ -1,0 +1,129 @@
+TABLA	REL	Idx	PARTE	TIPO	TIPO_ORACLE	PK	IDXA	POSA	RELTABLE	RELCOL	ParamCsv	FileCsv
+CfgEntityType	col		Id			1					SPRId	
+CfgEntityType	col		Dsc									
+CfgEntityType	col		DscL									
+CfgEntityType	col		Class		VARCHAR2(10)						EntityType	
+CfgEntityType	col		NetTypeId									
+CfgEntityType	col		CategoryId								CategId	
+CfgEntityType	col		PropertyId									
+CfgEntityType	col		Layer									
+CfgEntityType	col		Flags									
+GeoArea	col		Id			1						
+GeoArea	col		TypeId					1				
+GeoArea	col		Dsc									
+GeoArea	col		Code		VARCHAR2(100)							
+GeoArea	col		Parent									
+GeoAreaVtx	col		GeoAreaId			1					id	
+GeoAreaVtx	col		Id			2					PartId	
+GeoAreaVtx	col		Idx			3						
+GeoAreaVtx	col		X				XY	1				
+GeoAreaVtx	col		Y				XY	2				
+CfgAreaType	col		Id			1						CfgAreaTypes
+CfgAreaType	col		Dsc									
+CfgAreaType	col		Code		VARCHAR2(100)							
+CfgAreaType	col		Parent					1				
+GeoBlock	col	1	Id			1					GeoBlockId	
+GeoBlock	col	2	EntityTypeId				ET	1			Sprid	
+GeoBlockVtx	col	1	GeoBlockId			1						
+GeoBlockVtx	col	2	Idx			2						
+GeoBlockVtx	col	3	X				XY	1				
+GeoBlockVtx	col	4	Y				XY	2				
+GeoFacade	col	1	Id			1					GeoFacadeId	
+GeoFacade	col	2	GeoStreetId				SID	1				
+GeoFacade	col	3	GeoBlockId				BID	1				
+GeoFacade	col	4	GeoBlockVtxIdxIni								GeoBlockVtxIni	
+GeoFacade	col	5	GeoBlockVtxIdxEnd								GeoBlockVtxEnd	
+GeoFacade	col	6	GeoFacadeNumIni									
+GeoFacade	col	7	GeoFacadeNumEnd									
+GeoFacade	col	8	GeoFacadeNumDir									
+GeoStreet	col	1	Id			1					GeoStreetId	
+GeoStreet	col	2	Dsc				Dsc	1				
+GeoStreetVtx	col		GeoStreetId			1						GeoStreetPartVtx
+GeoStreetVtx	col		Id			2						
+GeoStreetVtx	col		Idx			3						
+GeoStreetVtx	col		X				XY	1				
+GeoStreetVtx	col		Y				XY	2				
+NetConnector	col	1	NetElementId			1						
+NetConnector	col	2	EntityTypeId				ET	1			SprId	
+NetConnector	col	3	Color									
+NetConnectorVtx	col	1	NetElementId			1						
+NetConnectorVtx	col	2	Idx			2						
+NetConnectorVtx	col	3	X				XY	1				
+NetConnectorVtx	col	4	Y				XY	2				
+NetElement	col	1	NetElementId			1						
+NetElement	col	2	EntityTypeId								SprId	
+NetElement	col	3	X				XY	1				
+NetElement	col	4	Y				XY	2				
+NetElement	col	5	Angle									
+NetElement	col	6	Scale									
+NetElement	col	7	Color									
+NetLink	col		netElementIdFrom			1					ObjectIdFrom	
+NetLink	col		netElementIdTo			3					ObjectIdTo	
+NetLink	col		NodeIdxFrom			2					nodeindexfrom	
+NetLink	col		NodeIdxTo								nodeindexto	
+*	col		Dsc	TEXT	VARCHAR2(100)							
+*	col		Id	INTEGER	NUMBER(10)							
+*	col		Parent	INTEGER	NUMBER(10)							
+*	col		X	INTEGER	NUMBER(10)							
+*	col		Y	INTEGER	NUMBER(10)							
+*	col		Z	INTEGER	NUMBER(10)							
+*	col		Idx	INTEGER	NUMBER(5)							
+*	col		Scale	REAL	BINARY_FLOAT							
+*	col		Angle	REAL	BINARY_FLOAT							
+*	col		Val	TEXT	VARCHAR2(200)							
+*	col		*	INTEGER	NUMBER(10)							
+*	col		Flags	INTEGER	NUMBER(10)							
+*	col		dbl	REAL	BINARY_FLOAT							
+*	col		type	TEXT	VARCHAR2(10)							
+*	col		width	REAL	BINARY_FLOAT							
+CfgIcon	col		id			1					iconid	
+CfgIcon	col		dsc									
+CfgIcon	col		IconCategoryId								categoryid	
+CfgIcon	col		Scale									
+CfgIcon	col		type									
+CfgIcon	col		imagepath									
+CfgIconCxPoints	col		EntityTypeId			1					sprid	
+CfgIconCxPoints	col		Idx			2						
+CfgIconCxPoints	col		x									
+CfgIconCxPoints	col		y									
+CfgIconCxPoints	col		z									
+CfgIconPart	col		IconId			1						
+CfgIconPart	col		id			2					iconpartid	
+CfgIconPart	col		idx			3						
+CfgIconPart	col		type									
+CfgIconPart	col		Flags									
+CfgIconPart	col		color									
+CfgIconPart	col		lineType									
+CfgIconPart	col		lineTypeInfo									
+CfgIconPart	col		dbl1									
+CfgIconPart	col		dbl2									
+CfgIconPart	col		dbl3									
+CfgIconPart	col		dbl4									
+CfgIconPart	col		dbl5									
+CfgIconPart	col		dbl6									
+CfgIconPartVtx	col		IconId			1						
+CfgIconPartVtx	col		IconPartId			2						
+CfgIconPartVtx	col		Idx			3						
+CfgIconPartVtx	col		id			4					iconvtxid	
+CfgIconPartVtx	col		x									
+CfgIconPartVtx	col		y									
+CfgIconPartVtx	col		bulge									
+CfgIconPartVtx	col		startwidth									
+CfgIconPartVtx	col		endwidth									
+CfgIconRules	col		EntityTypeId			1					sprid	
+CfgIconRules	col		ProfileId			2						
+CfgIconRules	col		ScaleRangeId			3						
+CfgIconRules	col		RuleId			4						
+CfgIconRules	col		Idx			5						
+CfgIconRules	col		Func									
+CfgIconRules	col		ParamIdx			6						
+CfgIconRules	col		ParamVal								param	
+CfgAttrType	col		id			1					linkid	CfgAttrTypes
+CfgAttrType	col		dsc				DSC	1				
+AllAttr	col		id			1					objectid	
+AllAttr	col		AttrTypeId			2						
+AllAttr	col		Idx			3						
+AllAttr	col		Val									
+CfgIconCategory	col		id			1						
+CfgIconCategory	col		dsc									
+CfgIconCategory	col		parent									

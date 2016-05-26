@@ -1,0 +1,11 @@
+#INFO: representacion en la base que usamos para mostrar mapas
+
+OJO! casi todo se genera usando librepr.js a partir de SCHEMA.def.tsv
+
+OJO! tiene que funcionar en SQLITE, si hay una version mejor para ORACLE, crear miconsulta.query.sql con la solucion estandar Y miconsulta.query.oracle.sql usando la funcionalidad de oracle
+
+OJO! la sintaxis debe ser "FROM tabla1, (tabla2 inner join tabla3 on ...) O SEA la expresion del join va entre parentesis
+
+XXX: hace falta leer fechas con # to_date($col7,'YYYY-MM-DD HH24:MI:SS')?
+
+XXX: GeoAreaVtx.Parent.query NO SE USA??? SI si, donde???

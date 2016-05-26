@@ -1,0 +1,1 @@
+INSERT INTO NetConnector (NetElementId, EntityTypeId, Color)  VALUES ($NetElementId, $SprId, $Color) 

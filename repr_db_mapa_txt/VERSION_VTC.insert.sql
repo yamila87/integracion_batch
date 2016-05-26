@@ -1,0 +1,1 @@
+INSERT INTO version_vtc (ID, ID_VERSION, ORDEN, X, Y) VALUES (version_vtc_seq.nextval ,$ID_VERSION, $ORDEN, $X, $Y)

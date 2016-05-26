@@ -1,0 +1,1 @@
+INSERT INTO NetElement (NetElementId, EntityTypeId, X, Y, Angle, Scale, Color)  VALUES ($NetElementId, $SprId, $X, $Y, $Angle, $Scale, $Color) 

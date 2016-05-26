@@ -1,0 +1,1 @@
+INSERT INTO GeoStreetVtx (GeoStreetId, Id, Idx, X, Y)  VALUES ($GeoStreetId, $Id, $Idx, $X, $Y) 

@@ -1,0 +1,1 @@
+INSERT INTO NetLink (netElementIdFrom, netElementIdTo, NodeIdxFrom, NodeIdxTo)  VALUES ($ObjectIdFrom, $ObjectIdTo, $nodeindexfrom, $nodeindexto) 

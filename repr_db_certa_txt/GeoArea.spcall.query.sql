@@ -1,0 +1,6 @@
+DECLARE
+  v_Return NUMBER;
+BEGIN
+  v_Return := TRACKER.CHECK_AMAREAS_NEWS();
+END;
+;

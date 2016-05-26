@@ -1,0 +1,1 @@
+DELETE FROM GeoBlock WHERE Id= $GeoBlockId

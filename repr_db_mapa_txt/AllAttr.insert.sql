@@ -1,0 +1,1 @@
+INSERT INTO AllAttr (id, AttrTypeId, Idx, Val)  VALUES ($objectid, $AttrTypeId, $Idx, $Val) 

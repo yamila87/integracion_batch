@@ -1,0 +1,16 @@
+syncPlanAgregarLista([
+    "GeoAreaVtx.deleted",
+    "GeoAreaVtx.created",
+    "GeoStreet.deleted",
+    "GeoStreet.created",
+    "GeoStreetPartVtx.deleted",
+    "GeoStreetPartVtx.created",
+    "GeoFacade.deleted",
+    "GeoFacade.created", 
+    "GeoBlock.deleted",
+    "GeoBlock.created",
+    "GeoBlockVtx.deleted",
+    "GeoBlockVtx.created",
+	"CfgGeoStreetTypes.deleted",
+	"CfgGeoStreetTypes.created"
+]);

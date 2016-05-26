@@ -1,0 +1,6 @@
+SELECT v.objectid NetElementId, v.vertixorder Idx
+FROM SPROBJECTVERTIXS v,sprobjects o
+,SPRLOG lf
+WHERE v.OBJECTID=o.OBJECTID AND o.OBJECTTYPE=11
+AND o.LOGIDTO!=0 AND $logIdSyncMin < o.LOGIDTO AND o.LOGIDTO <= $logIdSyncMax
+AND o.LOGIDTO=lf.LOGID AND lf.EVENTSTATUS=0 

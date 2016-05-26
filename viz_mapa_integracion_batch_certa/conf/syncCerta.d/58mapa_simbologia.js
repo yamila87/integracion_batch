@@ -1,0 +1,14 @@
+syncPlanAgregarLista([
+    "CfgIconCategory.deleted",
+    "CfgIconCategory.created",
+    "CfgIcon.deleted",
+    "CfgIcon.created",
+    "CfgIconCxPoints.deleted",
+    "CfgIconCxPoints.created",
+    "CfgIconPart.deleted",
+    "CfgIconPart.created",
+    "CfgIconPartVtx.deleted",
+    "CfgIconPartVtx.created",
+    "CfgIconRules.deleted",
+    "CfgIconRules.created"
+]);

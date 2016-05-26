@@ -1,0 +1,12 @@
+syncPlanAgregarLista([
+    "NetElement.created",
+    "NetElement.deleted",
+    "NetConnector.created",
+    "NetConnector.deleted",
+    "NetConnectorVtx.created",
+    "NetConnectorVtx.deleted",
+    "NetLink.created",
+    "NetLink.deleted",
+    "AllAttr.created",
+    "AllAttr.deleted"
+]);

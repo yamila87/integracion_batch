@@ -1,0 +1,6 @@
+CREATE TABLE "CFGGEOSTREETTYPES" 
+   (	"ID" NUMBER, 
+	"DSC" 
+   );
+
+

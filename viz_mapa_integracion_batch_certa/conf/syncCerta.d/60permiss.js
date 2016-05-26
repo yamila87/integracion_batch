@@ -1,0 +1,12 @@
+syncPlanAgregarLista([
+    "RelUserGroups.deleted",
+    "RelGroupArea.deleted",
+    "Groups.deleted",
+    "Users.deleted",
+    "GeoArea.deleted",
+    "GeoArea.created",
+    "Users.created",
+    "Groups.created",
+    "RelGroupArea.created",
+    "RelUserGroups.created"
+]);

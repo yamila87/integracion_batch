@@ -1,0 +1,7 @@
+* Por qué hay NetElement con x e y MUY chiquitos? (mil en vez de 56millones)
+
+* XY: Hay una columna para la Faja? Como detectan cambios de Faja?
+
+* Se podria DESNORMALIZAR NetConnectorVtx? Vale la pena? (el 1% tiene MENOS de 5 segmentos?)
+
+* Las calles, tienen localidad? como saben de cual "SAN MARTIN" hablamos?

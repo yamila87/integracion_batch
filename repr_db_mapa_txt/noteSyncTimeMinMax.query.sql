@@ -1,0 +1,1 @@
+SELECT min(LOGID) minimo, max(LOGID) maximo FROM usernotes

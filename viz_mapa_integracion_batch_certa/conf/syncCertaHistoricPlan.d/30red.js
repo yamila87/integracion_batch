@@ -1,0 +1,10 @@
+syncPlanAgregarLista([
+//"links.new",
+//"model.blocks.links.new",
+//"model.facades.links.new",
+//"model.street-sections.links.new",
+//"sprentities.new",
+//"atr_def_h.new",
+//"clase_h.new",
+"elemento_h.new"
+]);
