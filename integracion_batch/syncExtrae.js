@@ -1,6 +1,6 @@
 //INFO: extrae datos para sincronizar la replica que usamos para dibujar los mapas, ejecutar ej. con cron en un servidor con acceso a CERTA
 load("libsync.js");
-set_logLvlMax(10);
+set_logLvlMax(3);
 //*****************************************************************************
 //S: CFG defaults
 CfgFile= ARGV[1] || "../conf/extrae.certa.js" //U: path al archivo de configuracion, puede redefinir TODO!
@@ -55,10 +55,13 @@ syncExtraer= function (plan) {
 	if (rownum_sync_anterior == 0) {
 		rownum_sync_actual=CfgLogSyncDeltaMax;
 	} else {
-		rownum_sync_actual= rownum_sync_anterior + CfgLogSyncDeltaMax;
+		rownum_sync_actual= rownum_sync_anterior + CfgLogSyncDeltaMax ;
+		rownum_sync_anterior = rownum_sync_anterior + 1;
 	}
 	//A: rownum_sync_actual tiene el nro hasta el que tenemos que sincronizar
 
+	logm("DBG",1," ROW NUM ",{actual: rownum_sync_actual , anterior: rownum_sync_anterior});
+	
 	var manifest= {
 		files: {},
 		rownumMax: rownum_sync_actual,
