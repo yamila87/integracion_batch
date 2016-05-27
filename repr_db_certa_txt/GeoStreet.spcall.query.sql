@@ -1,6 +1,0 @@
-DECLARE
-  v_Return NUMBER;
-BEGIN
-  v_Return := TRACKER.CHECK_SMSTREETS_NEWS();
-END;
-;

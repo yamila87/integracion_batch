@@ -1,3 +1,4 @@
 storedProcedures/executeProcedure.jar
 storedProcedures/logs/
 var/run/
+var/data/

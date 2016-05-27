@@ -1,2 +1,0 @@
-CREATE TABLE CfgAreaType (Id INTEGER, Dsc TEXT, Code INTEGER, Parent INTEGER);
-CREATE UNIQUE INDEX ix_CfgAreaType_PK ON CfgAreaType (Id);

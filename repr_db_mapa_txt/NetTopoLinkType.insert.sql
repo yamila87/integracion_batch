@@ -1,1 +1,0 @@
-INSERT INTO NetTopoLinkType (Dsc, NetTopoLinkId)  VALUES ($Dsc, $NetTopoLinkId) 

@@ -1,1 +1,0 @@
-INSERT INTO NetTopoLink (NetElementId, TopoLinkVal)  VALUES ($NetElementId, $TopoLinkVal) 
