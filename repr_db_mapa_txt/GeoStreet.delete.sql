@@ -1,1 +1,0 @@
-DELETE FROM GeoStreet WHERE Id= $GeoStreetId

@@ -1,1 +1,0 @@
-create table NOTE_CATEGORY (ID,DESCRIPTION);

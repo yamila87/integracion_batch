@@ -1,0 +1,13 @@
+{
+  "files": {
+    "elemento_h.new": {
+      "cnt": 0,
+      "fname": "h_o_logId30__2e__2e__2f_repr_5f_db_5f_certa_5f_txt_2f_repr_5f_db_5f_certa_5f_txt_5f_historic_2f_elemento_5f_h_2e_new.csv.gz",
+      "outPath": "../var/data/certa_deltas_historic/h_o_logId30__2e__2e__2f_repr_5f_db_5f_certa_5f_txt_2f_repr_5f_db_5f_certa_5f_txt_5f_historic_2f_elemento_5f_h_2e_new.csv.gz",
+      "digest": "E6C8D9B79CD4A1A64193697DDED41B9B",
+      "query": "../repr_db_certa_txt/repr_db_certa_txt_historic/elemento_h.new"
+    }
+  },
+  "rownumMax": 30,
+  "rownumMin": 20
+}

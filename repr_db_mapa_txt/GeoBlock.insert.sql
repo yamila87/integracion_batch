@@ -1,1 +1,0 @@
-INSERT INTO GeoBlock (Id, EntityTypeId)  VALUES ($GeoBlockId, $Sprid) 

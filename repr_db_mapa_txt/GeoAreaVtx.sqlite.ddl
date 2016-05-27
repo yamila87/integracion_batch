@@ -1,3 +1,0 @@
-CREATE TABLE GeoAreaVtx (GeoAreaId INTEGER, Id INTEGER, Idx INTEGER, X INTEGER, Y INTEGER);
-CREATE UNIQUE INDEX ix_GeoAreaVtx_PK ON GeoAreaVtx (GeoAreaId, Id, Idx);
-CREATE  INDEX ix_GeoAreaVtx_XY ON GeoAreaVtx (X, Y);
