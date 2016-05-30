@@ -1,6 +1,6 @@
 //INFO: extrae datos para sincronizar la replica que usamos para dibujar los mapas, ejecutar ej. con cron en un servidor con acceso a CERTA
 load("libsync.js");
-set_logLvlMax(3);
+//set_logLvlMax();
 //*****************************************************************************
 //S: CFG defaults
 CfgFile= ARGV[1] || "../conf/extrae.certa.js" //U: path al archivo de configuracion, puede redefinir TODO!
@@ -47,7 +47,6 @@ syncExtraer= function (plan) {
 	ensure_dir(CfgDeltaDir); //A: el dir para escribir los deltas existe
     logm("NFO", 1, "ANTES DE TOMAR LOGID", { CfgLogIdPath : CfgLogIdPath });
 	var rownum_sync_anterior= contador_file(CfgLogIdPath, 0);  //OBTIENE EL ANTERIOR
-	logm("DBG",1,"ANTERIOR ", {a:rownum_sync_anterior});
 	
 //CfgLogSyncDeltaMax
 	
